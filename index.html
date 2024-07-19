@@ -19,7 +19,7 @@
 <div id="particles-js"></div>
 
 <!-- scripts -->
-<script src="../particles.js"></script>
+<script src="particles.js"></script>
 <script src="js/app.js"></script>
 <div class="graund">
 <div class="daun">litvitsk.jar</div>
@@ -45,18 +45,14 @@
 
     
 <script>
-  /*Вешаем обработчик события на кнопку с идентификатором mybtn. Скрипт обязательно должен стоять
-  после кнопки, т.к. скрипты выполняются сразу при своей загрузке, и если он выполнится раньше
-  загрузки кнопки - он просто ее не увидит.*/
     document.getElementById("mybtn").onclick = function()
     {
       var myaudio = document.getElementById("myaudio");
       if(myaudio.paused == true)
       {
         document.getElementById("myaudio").play();
-        this.style.backgroundColor = "#0060e0"; //Цвет кнопки можно изменить напрямую, без всяких картинок.
-        this.style.color = "White"; //Заодно меняем цвет текста для удобичитаемости
-        //this здесь является самой кнопкой, так как функция является дочерней кнопке
+        this.style.backgroundColor = "#0060e0";
+        this.style.color = "White";
       }
       else if (myaudio.paused == false)
       {
