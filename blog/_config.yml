@@ -1,9 +1,16 @@
-title: thoughts not posts
-author: thoughts not posts
+title: i want to believe
+author: i want to believe
 email: andrey1010102008@gmail.com
 description: Notes on things I don't want to rethink from scratch
 
 theme: minima
 
+url: https://therepanic.com
+baseurl: "/blog"
+
 github_username: therepanic
 
+show_excerpts: false
+
+header_pages:
+  - index.markdown
