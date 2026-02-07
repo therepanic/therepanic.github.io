@@ -16,5 +16,4 @@ Or is this already happening? More likely yes than no, but what I know for sure 
 
 ---
 
-btw, I want to at least try to take a step in the opposite direction and attempt to [do something towards a possible solution to this problem](https://github.com/therepanic/leetribute).
-п
+btw, I want to at least try to take a step in the opposite direction and attempt to [do something towards a possible solution to this problem](https://github.com/therepanic/openleetcode).
