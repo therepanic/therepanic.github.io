@@ -101,10 +101,7 @@ We could continue storing content as happens now, whether images or video. If we
 
 For now this solution only applies to AI slop, since it's inherently meaningless and has only one function. We can store the prompt instead of storing the entire media file, and get the same result. But it's no secret that AI is scaling and we're getting models for generation, including images and video, that are [becoming significantly faster and higher quality](https://news.mit.edu/2024/ai-generates-high-quality-images-30-times-faster-single-step-0321). Soon I think we'll discover methods allowing generation of realistic videos with longer context and faster generation speed, also cheaper. As generation speeds up, regeneration latency will decrease, making the approach more practical. It should not be used for human-created content or cultural artifacts.
 
-Generated media is cache. Prompts are the source of truth.
-
 ---
 
 
-This post was originally [published by me on GitHub](https://github.com/therepanic/slop-compressing-manifesto)  
-
+This post was originally [published by me on GitHub](https://github.com/therepanic/slop-compressing-manifesto)
